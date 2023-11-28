@@ -1,5 +1,9 @@
 const fs = require('fs').promises;
 
+
+///이것이 best way to use 비동기방식
+
+
 console.log('시작');
 fs.readFile('./readme2.txt')
   .then((data) => {
